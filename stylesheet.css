@@ -1,0 +1,234 @@
+/*1. Global Styles*/
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    opacity: 0.9;
+    margin: 10%;
+    box-sizing: border-box;
+    overflow: auto;
+    max-width: fit-content;
+}
+
+.body{
+    margin: 0;
+}
+/*Header and Nav bar*/
+/* Header */
+header{
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 70%;
+    top:0px;
+    bottom: 10px;
+    flex-flow: row wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#logo1{
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 9px;
+    padding-bottom: 20px;
+}
+
+.nav a{
+    display: flex;
+    justify-content: start;
+    color: seashell;
+    margin-right: 10px;
+    color: seashell;
+    align-items: center;
+    list-style: none;
+    display: inline;
+    float: left;
+    margin: 0 10px;
+    opacity: 0.9;
+    padding: 10px
+}
+
+.nav a :hover {
+    color: rgb(255, 226, 205);
+}
+
+/*Mission Background Image*/
+.missionimage {
+    height:700px;
+    max-width: 1000px;
+    background-repeat:no-repeat;
+    background-position:center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-size:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+/*Mission Statement*/
+.our{
+    background-color: black;
+    width: 1000px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 100px;
+    padding-right: 100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position: absolute;
+    flex-flow:column;
+}
+#mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    padding: 100px;
+    line-height: 1.6;
+}
+
+.h2 {
+    font-size: 36px;
+    margin: 2px;
+}
+
+.h3 {
+    font-size: 32px;
+}
+
+.h4 {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin: 20px;
+    justify-content: space-around;
+
+}
+
+.h5 {
+    font-size: 24px;
+}
+
+/*Tea of the month Section*/
+.tea { 
+    flex-direction: column;
+    margin-left: 70px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*Tea of the month Title*/
+.title {
+    width: 1000px;
+    text-align: center;
+}
+/*Tea of the month Images*/
+.teagrid {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 70px;
+}
+
+.teabox {
+    width: 300px;
+    margin: 0 15px;
+}
+.selection {
+    height: 200px;
+    width:300px;
+}
+.card-h4 {
+    margin-top: 10px;
+}
+
+/*Location Addresses & Background Image*/
+.locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations-container {
+    width: 1200px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background-image: url("./images/locationsbackground.jpg");
+    flex-direction: column;
+    
+}
+
+.location-h2 {
+    margin-bottom: 15px;
+}
+
+.locations-grid {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.location-card {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+/*Footer*/
+.footer{
+    height: 200px;
+    width:auto;
+    text-align: center;
+}
+.footer-h5 {
+    font-size: 30px;
+}
+.footer-p {
+    font-size: 18px;
+}
+.phone {
+    font-style: italic;
+}
+
+/*Copyright Information*/
+.copyright{
+    margin: 20px;
+    text-align: left;
+}
+
+.copy {
+    font-size: 15px;
+}
